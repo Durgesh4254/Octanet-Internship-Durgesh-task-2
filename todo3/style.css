@@ -1,0 +1,40 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .container {
+     max-width: 600px;
+  
+ }
+ 
+ /* Changed text and color for better UI which wasnt clearly visible*/
+ .form-control::placeholder{
+     color: gainsboro;
+ }
+ 
+ 
+ input[type=text],
+ input[type=text]:focus {
+     color: white;
+     border: none;
+     background: rgba(247, 109, 196, 0.65);
+     max-width: 800px;
+ }
+ 
+ .todos li {
+     background: #408b8b;
+ }
+ 
+ .delete {
+     cursor: pointer;
+ }
+ 
+ .filtered {
+     display: none !important;
+ }
+ 
+ .checkbox .selected {
+     font-weight: bold;
+ }
